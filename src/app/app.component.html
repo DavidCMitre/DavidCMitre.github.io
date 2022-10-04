@@ -1,0 +1,537 @@
+<div class="main">
+  <div class="header" #header>
+    
+    <div class="logo">
+      
+      <h4 class="heading-4">David Mitre</h4>
+      
+    </div>
+
+
+    <!-- BEGINNING OF NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
+      <div class="container">
+        <a class="navbar-brand text-white" style="font-size: 46; font-weight: bold;" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div> <!--This pushes header menu items right-->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#sectionTwo">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--END OF HEADER-->
+  
+  <!--BEGIN HELLO-->
+
+  <div class="center-info" >
+    <div class="center-info__box" id="centerBox" #centerBox>
+      <h1 class="center-info__box--center" style="color: white;">Hey,  I'm  David.</h1>
+      <h1 id="phrase2" class="center-info__box--center" style="color: white;">It's nice to meet you!</h1>
+      <!--<div class="center-info__box--right">Available January 2023 - August 2023</div>-->
+    </div>
+  </div>
+  <!--END HELLO-->
+  
+  
+  <!--BEGIN SEC1-->
+
+  <section class="section-one" #sectionOne>
+    
+    <!--
+    <figure class="image-container one">
+      IMG GOES HERE <img src="./assets/2.jpg" alt=""  > 
+      <img src="./assets/1.jpg" alt="image 1">
+      <figcaption class="caption" style="justify-content:right;" #imageOneCap>Hey!</figcaption>
+    </figure>
+    -->
+    <figure class="image-container two">
+      <!-- IMG GOES HERE <img src="./assets/3.jpg" alt="" #imageSecond > -->
+      <img src="./assets/roundDavid.png" alt="image 2" #imageSecond> <!--ID USED AS AN ANCHOR FOR HEADER LINKS-->
+      <figcaption class="caption" style="text-align: center; color: white;" #imageSecondCap>This is my Software Developer Portfolio</figcaption>
+    </figure>
+
+  </section>
+
+  <!--END OF SEC1-->
+  
+  <!--BEGIN SEC2-->
+
+
+  <section class="section-two" id="sectionTwo" #sectionTwo>
+    <div class="letter">
+      <span>About</span>
+      <span class="num" style="color: white;">01</span>
+      <!--<span>(projs)</span>-->
+
+    </div>
+
+
+    <figure class="image-container">
+      <!-- IMG GOES HERE <img src="./assets/3.jpg" alt="" #imageSecond > -->
+      <img src="./assets/smilevan.png" alt="image 3" #imagethird> <!--ID USED AS AN ANCHOR FOR HEADER LINKS-->
+    </figure>
+
+
+    <!--
+    <p class="about" style="color: white; font-size: 3vw;"  #paragraph1>
+      
+      BRIEF INTRO ABT ME 
+      WHERE I AM CURRENTLY 3RD YEAR NORTHEASTERN UNI KHOURY COLLEGE COMP SCI
+      SKILLS
+      
+      likes photography (all photos on site sourced by me :) )
+      ADD WHERE I WANT TO GO WITH CAREER - self starter attitude
+    </p>
+    -->
+    <ul class="about" style="color: white; font-size: 2vw; margin-top: 2.5vw;"  #paragraph1>
+      <li>A software developer currently working towards a Computer Science degree at Northeastern University</li>
+      <li>Has experience building complex (and fun) projects using Java, C++, Python, and more</li>
+      <li>An eager learner, thrives in a team environment, receptive to feedback, and keenly adaptable</li>
+      <li>Self-starter attitude, with practiced communicative and collabrative skills</li>
+      <li>Looking for a co-op or internship to gain hands-on experience and knowledge</li>
+      <li>Loves the process of problem solving, from studying to implementing solutions </li>
+      <li>I also like photography! (visuals on site sourced by me :) ) </li>
+    </ul>
+    
+
+
+
+
+    <a id= "dwn" href="../assets/David_Mitre_Resume.pdf" download>
+      <button type="button" class="btn btn-primary btn-lg w-100" >Download Resume</button>
+    </a>
+
+    <div class="titles" id="projects" #projects>
+      <div class="title-1">
+        <span class="num" style="color: white;margin-top: 100px;">02</span>
+        <h1 style="color: white; margin-top: 100px;">Projects</h1>
+      </div>
+      
+    </div>
+
+    <!--BEGIN PROJECT 1-->
+    <!--BEGIN CAROUSEL-->
+    <!-- Carousel TODO EDIT CAROUSEL-->
+    <div id="proj1" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#proj1" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#proj1" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#proj1" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/portfoliopic1.png" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/cloudyportfolio.png" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/BaseVersionportfolio.png" alt="" class="d-block w-100">
+          <div class="carousel-caption ">
+            <h5></h5> <!--EDIT SIZE BASED ON HEIGHT, MAKE SURE FITS-->
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#proj1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#proj1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+
+    <!--end carousel-->
+
+    <dl class="PROJ1LIST" style="color: white; font-size: 1.75vw; margin-left: 1vw;"  #paragraph1>
+      <dt style="font-size: 4vw; text-decoration:underline;">Personal Portfolio Website</dt>
+      <dt>Description</dt>
+      <dd>-Made fully from scratch using Angular, Bootstrap 5, and GSAP for effects. Mobile-compatible and Reactive.</dd>
+      <dt>Obstacles</dt>
+      <dd>-Self-set time constraints, milestones, and project specifications, including: 'talking' introduction, animated transitions.</dd>
+      <dd>-Maintaining website quality while developing a reactive website accessible by mobile and desktop.</dd>
+      <dt>Solutions</dt>
+      <dd>-Compartmentalized project successfully into three distinct goals: a base of knowledge, a minimum viable product, and expressive additions.</dd>
+      <dd>-Using this, able to hit 100% of milestone goals, paced well enough to facilitate constant learning and adaptation.</dd>
+    </dl>
+    
+    <!--END PROJECT 1-->
+
+    <!--BEGIN PROJECT 2-->
+
+    <dl class="PROJ2LIST" id="proj2list" style="color: white; font-size: 1.75vw;"  >
+      <dt style="font-size: 4vw; text-decoration:underline;">Image Editing Software</dt>
+      <dt>Description</dt>
+      <dd>-Working Image Editor made with Java, Gui using Java swing library, team programming project.</dd>
+      <dt>Obstacles</dt>
+      <dd>-Navigating tough deadlines for lofty specifications such as implementing Gaussian blur, and Image Histograms.
+      </dd>
+      <dt>Solutions</dt>
+      <dd>-Using leadership skills and good team practice to work towards a common goal of creating a solid final product.
+      </dd>
+    </dl>
+    <!-- %USE THIS FOR SOFT SKILLS PORTRAYAL - WHAT HAPPENED, WHAT MADE THE TEAMWORK WORK - COORDINATED WITH TEAM MEMBERS TO SUPPORT-CREATE BLANK-->
+    <!--%accountability to getting stuff done on time - DEADLINE-->
+
+    <div id="proj2" style="grid-column: 2/-1;"   class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#proj2" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#proj2" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#proj2" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/imebase.png" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/sharpenblur.png" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/imemosaic.png" alt="" class="d-block w-100">
+          <div class="carousel-caption ">
+            <h5></h5> <!--EDIT SIZE BASED ON HEIGHT, MAKE SURE FITS-->
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#proj2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#proj2" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+
+    <!--end carousel-->
+
+    <!--END PROJ 2-->
+    
+
+
+
+  <!--BEGIN PROJECT 3-->
+
+  
+  <div id="proj3"  class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#proj3" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#proj3" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#proj3" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/BusOptions.PNG" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/busesempty.PNG" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/errorbusses.PNG" alt="" class="d-block w-100">
+        <div class="carousel-caption ">
+          <h5></h5> <!--EDIT SIZE BASED ON HEIGHT, MAKE SURE FITS-->
+          <p>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#proj3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#proj3" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <dl class="PROJ3LIST" id="proj3list" style="color: white; font-size: 1.75vw; margin-left: 1vw;"  >
+    <dt style="font-size: 4vw; text-decoration:underline;">Location Based Bus Tracking</dt>
+    <dt>Description</dt>
+    <dd>-Java program using a public transit API and Swing Gui to allow users to determine transit times, delays, and more.</dd>
+    <dt>Obstacles</dt>
+    <dd>-Development of location based portion obstructed by Java having no access to Windows device's local location through Java libraries. 
+    </dd>
+    <dt>Solutions</dt>
+    <dd>-Used Java Native Access to call C# code that implemented location-based element of project.</dd>
+  </dl>
+  <!-- storing most recent data - EXPLAIN MORE IN DEPTH - stored local data on database for - most recent busses searched - user facing design-->
+
+  <!--end carousel-->
+
+  <!--END PROJ 3-->
+
+
+  <!--BEGIN PROJECT 4-->
+
+  <dl class="PROJ4LIST" id="proj4list" style="color: white; font-size: 1.75vw;"  >
+    <dt style="font-size: 4vw; text-decoration:underline;">SQL Student Database</dt>
+    <dt>Description</dt>
+    <dd>-A database management application dealing with students, courses, professors, and their interactions.</dd>
+    <dt>Obstacles</dt>
+    <dd>-Enforcing data integrity, encapsulation of functionality, data sanitizing.
+    </dd>
+    <dt>Solutions</dt>
+    <dd>-Model, View, Controller architecture to help structure project.</dd>
+    <dd>-Using prepared statements to avoid SQL injection.</dd>
+  </dl>
+  <!--%talk about specifics - talk about math - what complexity
+%support png jpg - increasing usiability to the 90%of image files - INTERVIEW Q - WHAT I WOULD DO DIFFERENTLY-->
+
+  <div id="proj4" style="grid-column: 2/-1;"   class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#proj4" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#proj4" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#proj4" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#proj4" data-bs-slide-to="3"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/adminwindowstudentdb.PNG" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/adminviewstudentdb.PNG" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/addnewstudentdb.PNG" alt="" class="d-block w-100">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/editexistingstudent.PNG" alt="" class="d-block w-100">
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#proj4" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#proj4" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <!--end carousel-->
+
+  <!--END PROJ 4-->
+
+
+
+  <!--BEGIN PROJECT 5-->
+
+  
+  <div id="proj5"  class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#proj5" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#proj5" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#proj5" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/codeforNetworks.PNG" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/codeforNetworkssend.PNG" alt="" class="d-block w-100">
+      </div>
+      
+      <!--EDIT SIZE BASED ON HEIGHT, MAKE SURE FITS-->
+      
+      <div class="carousel-item">
+        <img src="../assets/NetworksTest.jpg" alt="" class="d-block w-100">
+        <div class="carousel-caption ">
+          <h5></h5> 
+          <p>
+            
+          </p>
+        </div>
+      </div>
+    
+
+
+
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#proj5" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#proj5" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <dl class="PROJ5LIST" id="proj5list" style="color: white; font-size: 1.75vw; margin-left: 1vw;"  >
+    <dt style="font-size: 4vw; text-decoration:underline;">Transport Protocol built on UDP</dt>
+    <dt>Description</dt>
+    <dd>-A TCP-like protocol, server and client, designed for durability against dropped, reordered, duplicate, and slowed packets.</dd>
+    <dt>Obstacles</dt>
+    <dd>-Designing a protocol with UDP as base, and maintain reliability.</dd>
+    <dd>-Building a protocol that is fast, while maintaining low data volume to be exchanged over the network, such as retransmissions.</dd>
+    <dt>Solutions</dt>
+    <dd>-Focused on correctness first, optimizing second: Used acknowledgment numbers, and an expanding window of unacknowledged messages, similar to TCP's 'slow start'.</dd>
+    <dd>-Successfully handled sending data at 10Mb/s to 0.1Mb/s and lossy networks with up to 50% dropped packets, 500ms latency, 100% duplicated packets, and lesser combinations.</dd>
+  </dl>
+
+
+  <!--end carousel-->
+
+  <!--END PROJ 5-->
+
+
+
+
+  <!--BEGIN PROJECT 6-->
+
+  <dl class="PROJ6LIST" id="proj6list" style="color: white; font-size: 1.75vw;"  >
+    <dt style="font-size: 4vw; text-decoration:underline;">Logistic Regression AI Model: NBA</dt>
+    <dt>Description</dt>
+    <dd>-A team project looking to predict NBA basketball games outcomes, with betting odds in mind. </dd>
+    <dt>Obstacles</dt>
+    <dd>-Creating a model that doesn't 'overfit' data is important: choosing covariant data to base the model off of (for example rebounds and offensive rebounds) causes over-correction leading to less accuracy in the long-run. </dd>
+    <dt>Solutions</dt>
+    <dd>-Built covariance matrices to minimize overfitting, and tested data on past regular seasons.</dd>
+    <dd>-Our model performed at about 66% for regular season outcomes, just about at the upper-bound of other successful AI models, which Weiner, Josh et al. describe as 66-74%. </dd>
+    
+  </dl>
+
+
+  <div id="proj6" style="grid-column: 2/-1;"   class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#proj6" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#proj6" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#proj6" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/AISS.png" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/Correlation1.png" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/Correlation2.png" alt="" class="d-block w-100">
+        <div class="carousel-caption ">
+          <h5></h5> <!--EDIT SIZE BASED ON HEIGHT, MAKE SURE FITS-->
+          <p>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#proj6" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#proj6" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <!--end carousel-->
+
+  <!--END PROJ 6-->
+
+
+
+
+    <p class="paragraph" style="color: white;" #paragraph2>
+      ...And more! Feel free to contact me about my other projects:
+
+    </p>
+
+    <!--
+    <figure class="image-1" #imageOne>
+      <img src="./assets/1.jpg" alt="">
+    </figure>
+    -->
+
+    <div class="titles" id="contact"  #contact>
+      <div class="title-1">
+        <span class="num" style="color: white;">03</span>
+        <h1 style="color: white;">Contact</h1>
+      </div>
+    </div>
+    
+    <p class="Contact" style="color: white;">
+      
+      Email: <a href = "mailto:mitre.d@northeastern.edu">mitre.d@northeastern.edu</a> <br>
+      LinkedIn: <a  href="https://linkedin.com/in/david-mitre">linkedin.com/in/david-mitre</a> <br>
+      Phone: (+1) 617-291-3669 <br>
+      
+    
+    </p>
+    <a id= "dwn" href="../assets/David_Mitre_Resume.pdf" download>
+      <button type="button" class="btn btn-primary btn-lg w-100" >Download Resume</button>
+    </a>
+
+  </section>
+  
+
+
+  
+</div>
