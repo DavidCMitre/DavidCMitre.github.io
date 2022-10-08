@@ -74,7 +74,7 @@ export class AppComponent implements OnInit{
       autoAlpha:0,
       
       //immediateRender: false,
-      delay: 0,
+      delay: 0.5,
       duration: 1,
       y: 90,
       opacity: 0,
